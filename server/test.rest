@@ -1,0 +1,64 @@
+POST http://localhost:5015/api/Students HTTP/1.1
+content-type: application/json
+
+[
+  {
+    "name": "anita",
+    "course": "MCA",
+    "semester": 2,
+    "tuitionFee": 30000,
+    "examFee": 2000,
+    "scholarship": 5000,
+    "lateDays": 0
+  },
+  {
+    "name": "rahul",
+    "course": "MBA",
+    "semester": 1,
+    "tuitionFee": 45000,
+    "examFee": 2500,
+    "scholarship": 10000,
+    "lateDays": 3
+  },
+  {
+    "name": "priya",
+    "course": "BCA",
+    "semester": 4,
+    "tuitionFee": 20000,
+    "examFee": 1500,
+    "scholarship": 0,
+    "lateDays": 10
+  },
+  {
+    "name": "kiran",
+    "course": "MCA",
+    "semester": 3,
+    "tuitionFee": 30000,
+    "examFee": 2000,
+    "scholarship": 12000,
+    "lateDays": 2
+  },
+  {
+    "name": "sneha",
+    "course": "MBA",
+    "semester": 3,
+    "tuitionFee": 45000,
+    "examFee": 2500,
+    "scholarship": 0,
+    "lateDays": 15
+  },
+  {
+    "name": "arjun",
+    "course": "BCA",
+    "semester": 2,
+    "tuitionFee": 20000,
+    "examFee": 1500,
+    "scholarship": 3000,
+    "lateDays": 7
+  }
+]
+
+###
+GET http://localhost:5015/api/Students
+###
+GET http://localhost:5000/api/Students/6ad6581f18214c9336cd7e36
